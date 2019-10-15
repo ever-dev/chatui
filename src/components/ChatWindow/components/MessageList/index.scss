@@ -1,0 +1,49 @@
+.message {
+  width: 300px;
+  margin: auto;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+
+  .content {
+    width: 100%;
+    display: flex;
+    &.sent {
+      justify-content: flex-end;
+      .avatar {
+        display: none;
+      }
+      .message-text {
+        color: white;
+        background-color: #4e8cff;
+        max-width: calc(100% - 120px);
+        word-wrap: break-word;
+      }
+    }
+    &.received {
+      .message-text {
+        color: #263238;
+        background-color: #f4f7f9;
+        margin-right: 40px;
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .avatar {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    align-self: center;
+    margin-right: 15px;
+  }
+}
+
+.message-list {
+  overflow: auto;
+  background-color: #eee;
+  padding: 10px;
+}

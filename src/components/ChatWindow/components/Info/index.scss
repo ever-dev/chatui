@@ -1,0 +1,12 @@
+.agent-info {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+
+  .info {
+    flex-grow: 1;
+  }
+  & > * {
+    margin: 0 10px;
+  }
+}

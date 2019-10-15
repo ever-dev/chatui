@@ -1,0 +1,17 @@
+.message-file {
+  background: white;
+  border: solid 1px #CCCDD1;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: flex;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.4;
+  cursor: pointer;
+  text-decoration: none;
+
+  p {
+    margin: 0px 0px 0px 10px;
+    color: rgba(86, 88, 103, 0.6);
+  }
+}
